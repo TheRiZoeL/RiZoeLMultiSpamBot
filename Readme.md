@@ -14,7 +14,21 @@ No Requirement of API ID and API HASH
    - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/MrRizoel/RiZoeLSpamBot)](https://replit.com/@RiZoeL/RiZoeL-Spam-bot)
 
 # SELF HOSTING !
-```
-• API ID = 4014305
-• API HASH = b0cb9e17b2b8bcde3be7161c8bfa6013
-```
+- Clone the repo. 
+
+`git clone https://github.com/TheRiZoeL/RiZoeLMultiSpamBot.git`
+- Open Cloned Folder.
+
+`cd RiZoeLMultiSpamBot`
+- Create VirtualEnv.
+
+`virtualenv -p /usr/bin/python3 venv`
+
+`. ./venv/bin/activate`
+- Install Requirements.
+
+`pip install -U -r requirements.txt`
+- Rename Semple.env as local.env and fill
+
+`python3 -m RiZoeL.py`
+
